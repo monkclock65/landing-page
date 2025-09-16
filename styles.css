@@ -100,8 +100,7 @@ a {
 }
 
 .signup-button {
-    display:flex
-    justify-content:center;
+    display:flex;
 }
 .signup-button button {
     background-color: #3882F6;
@@ -111,4 +110,52 @@ a {
     width:100px;
     margin-right: 225px;
     border-radius:10px;
+}
+.info {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    margin-top:40px;
+}
+.main-section {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    height: 210px;
+    width:100%;
+}
+
+.image-card {
+    text-align:center;
+    border-color:blue;
+    border-style:solid;
+    border-width:2px;
+    border-radius:10px;
+    height: 200px;
+    width: 200px;
+}
+
+.img-subtext-section {
+    display:flex;
+    flex-direction:row;
+     height:50px;
+     justify-content:space-around;
+     align-items:center; 
+     width:100%;
+}
+
+.img-subtext {
+    text-align:center;
+    font-size:14px;
+    width: 150px;
+}
+
+.img-info-section {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:500px;
 }
